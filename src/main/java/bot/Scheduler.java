@@ -1,5 +1,6 @@
 package bot;
 
+import bot.api.Token;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 
@@ -13,6 +14,9 @@ public class Scheduler {
     static int jobExecutionNumber = 0;
 
     public static void main(String[] args) throws Exception {
+
+        System.out.println("system env : " + Token.SPY_VW_BOT_ID);
+
         org.quartz.Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
         scheduler.start();
 
