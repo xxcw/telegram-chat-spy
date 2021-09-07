@@ -1,6 +1,6 @@
 package bot.api;
 
-public class Token {
+public class Bot {
 
     // spy bot
 
