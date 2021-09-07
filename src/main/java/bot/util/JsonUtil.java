@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class JsonParser {
+public class JsonUtil {
 
     private static ObjectMapper objectMapper = new ObjectMapper();
     private static final String RESULT_NODE = "result";

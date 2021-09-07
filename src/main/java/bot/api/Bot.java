@@ -5,7 +5,6 @@ public class Bot {
     // spy bot
 
     public static final String SPY_VW_BOT_TOKEN = System.getenv("SPY_VW_BOT_TOKEN");
-    public static final String SPY_VW_BOT_ID = System.getenv("SPY_VW_BOT_ID");
 
     // persons bots
 
@@ -23,5 +22,4 @@ public class Bot {
 
     public static final String VP_BOT_TOKEN = System.getenv("VP_BOT_TOKEN");
     public static final String VP_USER_ID = System.getenv("VP_USER_ID");
-
 }
