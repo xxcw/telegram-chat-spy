@@ -30,7 +30,7 @@ public class Scheduler {
         public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
 
             Launcher.launch();
-            System.out.println("Job : " + jobExecutionNumber++);
+            System.out.println("job : " + jobExecutionNumber++);
         }
     }
 }
