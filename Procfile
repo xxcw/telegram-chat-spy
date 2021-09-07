@@ -1,0 +1,1 @@
+scheduler: sh target/bin/scheduler
