@@ -2,7 +2,7 @@
 
 ## Telegram chat spy
 
-Creating a visual copy of the chat.
+Creating of a visual copy of the chat.
 
 - Forwarding messages between chats
 - Sending messages by different bots with names and avatars of users
