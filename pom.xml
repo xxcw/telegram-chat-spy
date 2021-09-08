@@ -22,11 +22,6 @@
     <dependencies>
         <dependency>
             <groupId>org.telegram</groupId>
-            <artifactId>telegramapi</artifactId>
-            <version>${telegramapi}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>
             <version>${telegrambots}</version>
         </dependency>
