@@ -25,13 +25,11 @@ public class ChatService {
             }
             updateIds.add(update.getUpdateId());
 
-
             // must have message
             if (!update.hasMessage()) {
                 continue;
             }
             Message message = update.getMessage();
-
 
             // only from source chat
             if (!Url.FROM_CHAT_ID.equals(Long.toString(message.getChatId()))) {
