@@ -14,7 +14,7 @@ Message content is limited by text and stickers.
 #### Tech stack
 - Java 8
 - Maven
-- Telegram Bots API
+- Telegram Bot API
 - Quartz Scheduler
 - Jackson
 
